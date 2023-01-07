@@ -133,3 +133,36 @@ ion-icon {
     margin-top: 10px;
 }
 
+/* my-plans-bottom-sections */
+.my-plans-bottom-sections{
+    background-repeat: no-repeat;
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.my-plans-bottom-sections-button{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.my-plans-bottom-sections-button h2{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 400px;
+}
+.my-plans-bottom-sections-button{
+
+}
+.btn-secend{
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    color: #F15B22;
+}
