@@ -144,7 +144,7 @@ ion-icon {
 }
 .my-plans-bottom-sections-button{
     margin-left: 100px;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .my-plans-bottom-sections-button h2{
     font-family: 'Work Sans';
@@ -152,9 +152,6 @@ ion-icon {
     font-size: 40px;
     color: #FFFFFF;
     width: 400px;
-}
-.my-plans-bottom-sections-button{
-
 }
 .btn-secend{
     background: #FFFFFF;
@@ -165,4 +162,119 @@ ion-icon {
     border-radius: 5px;
     font-family: 'Work Sans', sans-serif;
     color: #F15B22;
+}
+ 
+/* footer */
+.footer{
+    padding: 0 150px;
+    padding-top: 100px;
+    position: absolute;
+    margin-top: -450px;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+
+}
+.footer-right{
+    color: #FFFFFF;
+    width: 500px;
+}
+.footer-right h2{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+.footer-right p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    
+    
+}
+.footer-right .social img{
+    padding-right: 20px;
+}
+
+.footer-left h3{
+    color: #fff;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.footer-left input{
+    background: #151414;
+    border: 1px solid #F8F8F8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #F8F8F8;
+}
+.third-button{
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    color: #F15B22;
+}
+
+
+/* Footer Animation */
+#animation {
+    background: black;
+    height: 500px;
+    position: relative;
+
+
+}
+
+#animation ::after{
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(images/footer-shape1.png);
+    animation: hasan 1s linear 1s infinite;
+    
+}
+#animation ::before{
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(images/footer-shape2.png);
+    animation: hasan2 1s linear 1s infinite;
+}
+
+@keyframes hasan{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes hasan2{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
