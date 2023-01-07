@@ -94,4 +94,42 @@ ion-icon {
 
 }
 
+/* My Plan Section */
+.my-plan-section{
+    margin-bottom: 100px;
+}
+
+.my-plan-section h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+
+}
+.my-pans-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+.my-plans-menu-single{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.my-plans-menu-single h3{
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 10px;
+}
+.my-plans-menu-single p{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 10px;
+}
 
