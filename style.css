@@ -168,8 +168,8 @@ ion-icon {
 .footer{
     padding: 0 150px;
     padding-top: 100px;
-    background: #151414;
-    padding-bottom: 100px;
+    position: absolute;
+    margin-top: -450px;
 }
 .footer-sub{
     display: flex;
@@ -228,3 +228,51 @@ ion-icon {
     color: #F15B22;
 }
 
+
+/* Footer Animation */
+#animation {
+    background: black;
+    height: 500px;
+    position: relative;
+}
+
+#animation ::after{
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(images/footer-shape1.png);
+    animation: hasan 2s linear 1s infinite;
+    
+}
+#animation ::before{
+    content:"" ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(images/footer-shape2.png);
+    animation: hasan2 2s linear 1s infinite;
+}
+
+@keyframes hasan{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes hasan2{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
